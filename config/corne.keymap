@@ -41,20 +41,20 @@
     layer_0 {
       display-name = "Layer 0";
       bindings = <
-   &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
-   &kp LCTRL &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp ESC
-                  &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
+        &kp TAB   &kp Q &kp W &kp E    &kp R     &kp T       &kp Y   &kp U       &kp I     &kp O   &kp P    &kp BSPC
+        &kp LCTRL &kp A &kp S &kp D    &kp F     &kp G       &kp H   &kp J       &kp K     &kp L   &kp SEMI &kp SQT
+        &kp LSHFT &kp Z &kp X &kp C    &kp V     &kp B       &kp N   &kp M       &kp COMMA &kp DOT &kp FSLH &kp ESC
+                              &kp LGUI &lt 1 ESC &kp SPACE   &kp RET &lt 2 ESC   &kp RALT
       >;
     };
 
     layer_1 {
       display-name = "Layer 1";
       bindings = <
-        &kp TAB   &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y   &kp U        &kp I        &kp O       &kp P          &kp BSPC
-        &kp TAB   &hml LGUI A &hml LALT S &hml LSHFT D &hml LCTRL F &kp G          &kp H   &hmr RCTRL J &hmr RSHFT K &hmr RALT L &hmr RGUI SEMI &kp SQT
-        &kp LCTRL &kp Z       &kp X       &kp C        &kp V        &kp B          &kp N   &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                                          &mt LGUI DEL &lt 1 ESC    &kp SPACE      &kp RET &lt 2 ESC    &mt RALT BSPC
+        &kp TILDE &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT      &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR &kp BSPC
+        &kp F1    &kp F2   &kp F3 &kp F4   &kp F5   &kp F6         &kp MINUS &kp EQUAL &kp BSLH        &kp LBKT &kp RBKT &kp GRAVE
+        &kp F7    &kp F8   &kp F9 &kp F10  &kp F11  &kp F12        &kp UNDER &kp PLUS  &kp PIPE        &kp LBRC &kp RBRC &kp TILDE
+                          	      &trans   &trans   &trans         &trans    &trans    &trans
       >;
     };
 
@@ -62,22 +62,10 @@
       display-name = "Layer 2";
       bindings = <
         &kp GRAVE    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5          &kp N6   &kp N7    &kp N8    &kp N9    &kp N0 &kp BSPC
-        &kp A       &none        &none        &none        &none        &none           &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &none  &none
+        &none        &none        &none        &none        &none        &none           &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &none  &none
         &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR      &kp HOME &kp PG_DN &kp PG_UP &kp END   &none  &none
                            	                   &trans       &trans       &trans          &trans   &trans    &trans
       >;
-    };
-
-    extra_1 {
-      status = "reserved";
-    };
-
-    extra_2 {
-      status = "reserved";
-    };
-
-    extra_3 {
-      status = "reserved";
     };
   };
 };
