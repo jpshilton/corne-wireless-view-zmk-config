@@ -18,7 +18,7 @@
       tapping-term-ms = <280>;
       quick-tap-ms = <175>;
       bindings = <&kp>, <&kp>;
-      hold-trigger-key-positions = <7 8 9 10>;
+      hold-trigger-key-positions = <6 7 8 9 10 11>;
       hold-trigger-on-release;
     };
 
@@ -30,7 +30,7 @@
       tapping-term-ms = <280>;
       quick-tap-ms = <175>;
       bindings = <&kp>, <&kp>;
-      hold-trigger-key-positions = <1 2 3 4>;
+      hold-trigger-key-positions = <0 1 2 3 4 5>;
       hold-trigger-on-release;
     };
   };
