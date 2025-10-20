@@ -41,20 +41,20 @@
     layer_0 {
       display-name = "Layer 0";
       bindings = <
-        &kp TAB   &kp Q       &kp W       &kp E        &kp R        &kp T          &kp Y     &kp U        &kp I        &kp O       &kp P          &kp BSPC
-        &kp LSHFT &kp A       &kp S       &kp D        &kp F        &kp G          &kp H     &kp J        &kp K        &kp L       &kp SEMI       &kp SQT
-        &kp LCTRL &kp Z       &kp X       &kp C        &kp V        &kp B          &kp N     &kp M        &kp COMMA    &kp DOT     &kp FSLH       &kp BSLH
-                                          &mt LGUI DEL &lt 1 ESC    &kp SPACE      &kp ENTER &lt 2 ESC    &mt LALT BSPC
+        &kp TAB    &kp Q       &kp W       &kp E          &kp R      &kp T          &kp Y      &kp U      &kp I          &kp O       &kp P          &mt RGUI BSPC
+        &kp ESC    &kp A       &kp S       &kp D          &kp F      &kp G          &kp H      &kp J      &kp K          &kp L       &kp SEMI       &kp SQT
+        &kp LSHFT  &kp Z       &kp X       &kp C          &kp V      &kp B          &kp N      &kp M      &kp COMMA      &kp DOT     &kp FSLH       &mt RSHFT BSLH
+                                           &mt LCTRL DEL  &lt 1 ESC  &kp SPACE      &kp ENTER  &lt 2 ESC  &mt LALT BSPC
       >;
     };
 
     layer_1 {
       display-name = "Layer 1";
       bindings = <
-        &kp TILDE &kp EXCL     &kp AT       &kp HASH      &kp DLLR      &kp PRCNT      &kp CARET    &kp AMPS   &kp KP_MULTIPLY  &kp LPAR       &kp RPAR        &kp BSPC
-        &kp F1    &kp F2       &kp F3       &kp F4        &kp F5        &kp F6         &kp GRAVE    &kp MINUS  &kp EQUAL        &kp LBKT       &kp RBKT        &kp BSLH
-        &kp F7    &kp F8       &kp F9       &kp F10       &kp F11       &kp F12        &kp TILDE    &kp UNDER  &kp PLUS         &kp LBRC       &kp RBRC        &kp PIPE
-                          	                &trans        &trans        &trans         &trans       &trans     &trans
+        &kp TILDE     &kp EXCL     &kp AT       &kp HASH      &kp DLLR      &kp PRCNT      &kp CARET    &kp AMPS   &kp KP_MULTIPLY  &kp LPAR       &kp RPAR        &mt RGUI BSPC
+        &mt ESC F1    &kp F2       &kp F3       &kp F4        &kp F5        &kp F6         &kp GRAVE    &kp MINUS  &kp EQUAL        &kp LBKT       &kp RBKT        &kp BSLH
+        &mt LSHFT F7  &kp F8       &kp F9       &kp F10       &kp F11       &kp F12        &kp TILDE    &kp UNDER  &kp PLUS         &kp LBRC       &kp RBRC        &mt RSHFT PIPE
+                          	                    &trans        &trans        &trans         &trans       &trans     &trans
       >;
     };
 
