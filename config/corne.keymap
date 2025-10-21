@@ -41,9 +41,9 @@
     layer_0 {
       display-name = "Layer 0";
       bindings = <
-        &kp TAB     &kp Q         &kp W         &kp E           &kp R          &kp T          &kp Y         &kp U          &kp I          &kp O         &kp P            &kp RGUI
+        &kp TAB     &kp Q         &kp W         &kp E           &kp R          &kp T          &kp Y         &kp U          &kp I          &kp O         &kp P            &kp BSPC
         &kp ESC     &hml LGUI A   &hml LALT S   &hml LSHFT D    &hml LCTRL F   &kp G          &kp H         &hmr RCTRL J   &hmr RSHFT K   &hmr LALT L   &hmr RGUI SEMI   &kp SQT
-        &kp LSHFT   &kp Z         &kp X         &kp C           &kp V          &kp B          &kp N         &kp M          &kp COMMA      &kp DOT       &kp FSLH         &kp BSLH
+        &kp LSHFT   &kp Z         &kp X         &kp C           &kp V          &kp B          &kp N         &kp M          &kp COMMA      &kp DOT       &kp FSLH         &kp RGUI
                                                 &mt LCTRL ESC   &lt 1 DEL      &kp BSPC       &kp SPACE     &lt 2 ENTER    &kp LALT
       >;
     };
@@ -53,7 +53,7 @@
       bindings = <
         &kp TILDE   &kp EXCL       &kp AT         &kp HASH        &kp DLLR        &kp PRCNT      &kp CARET   &kp AMPS        &kp KP_MULTIPLY    &kp LPAR       &kp RPAR       &trans
         &kp GRAVE   &hml LGUI N1   &hml LALT N2   &hml LSHFT N3   &hml LCTRL N4   &kp N5         &kp N6      &hmr RCTRL N7   &hmr RSHFT N8      &hmr LALT N9   &hmr RGUI N0   &kp BSPC
-        &trans      &kp MINUS      &kp EQUAL      &kp UNDER       &kp PLUS        &none          &kp PIPE    &kp LBKT        &kp RBKT           &kp LBRC       &kp RBRC       &none
+        &trans      &kp MINUS      &kp EQUAL      &kp UNDER       &kp PLUS        &BSLH          &kp PIPE    &kp LBKT        &kp RBKT           &kp LBRC       &kp RBRC       &trans
                           	                      &trans          &trans          &trans         &kp ENTER   &trans          &trans
       >;
     };
