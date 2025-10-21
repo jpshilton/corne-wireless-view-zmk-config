@@ -41,10 +41,10 @@
     layer_0 {
       display-name = "Layer 0";
       bindings = <
-        &kp TAB    &kp Q       &kp W       &kp E           &kp R       &kp T         &kp Y         &kp U       &kp I           &kp O       &kp P          &mt RGUI
-        &kp ESC    &kp A       &kp S       &kp D           &kp F       &kp G         &kp H         &kp J       &kp K           &kp L       &kp SEMI       &kp SQT
-        &kp LSHFT  &kp Z       &kp X       &kp C           &kp V       &kp B         &kp N         &kp M       &kp COMMA       &kp DOT     &kp FSLH       &kp BSLH
-                                           &mt LCTRL ESC   &kp BSPC    &lt 1 DEL     &lt 2 ENTER   &kp SPACE   &kp LALT
+        &kp TAB       &kp Q       &kp W       &kp E           &kp R      &kp T          &kp Y         &kp U       &kp I       &kp O     &kp P      &mt RGUI
+        &kp ESC       &kp A       &kp S       &kp D           &kp F      &kp G          &kp H         &kp J       &kp K       &kp L     &kp SEMI   &kp SQT
+        &kp LSHFT     &kp Z       &kp X       &kp C           &kp V      &kp B          &kp N         &kp M       &kp COMMA   &kp DOT   &kp FSLH   &kp BSLH
+                                              &mt LCTRL ESC   &kp BSPC   &lt 1 DEL      &lt 2 ENTER   &kp SPACE   &kp LALT
       >;
     };
 
@@ -61,9 +61,9 @@
     layer_2 {
       display-name = "Layer 2";
       bindings = <
-        &kp F1   &kp F2         &kp F3         &kp F4         &kp F5         &kp F6          &kp F7      &kp F8      &kp F9      &kp F10   &kp F11     &kp F12
-        &trans   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &kp C_VOL_UP   &kp PSCRN       &none       &kp LEFT    &kp DOWN    &kp UP    &kp RIGHT   &none
-        &trans   &bt BT_SEL 3   &bt BT_SEL 4   &bt BT_CLR     &kp C_VOL_DN   &kp C_MUTE      &kp HOME    &kp PG_DN   &kp PG_UP   &kp END   &none       &none
+        &kp F1   &kp F2         &kp F3         &kp F4         &kp F5         &kp F6          &kp F7      &kp F8      &kp F9      &kp F10     &kp F11     &kp F12
+        &trans   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &kp C_VOL_UP   &kp PSCRN       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &none       &none
+        &trans   &bt BT_SEL 3   &bt BT_SEL 4   &bt BT_CLR     &kp C_VOL_DN   &kp C_MUTE      &kp HOME    &kp PG_DN   &kp PG_UP   &kp END     &none       &none
                            	                   &trans         &trans         &kp DEL         &trans      &trans      &trans
       >;
     };
