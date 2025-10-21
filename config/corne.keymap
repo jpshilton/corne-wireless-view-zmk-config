@@ -53,7 +53,7 @@
       bindings = <
         &kp TILDE   &kp EXCL       &kp AT         &kp HASH        &kp DLLR        &kp PRCNT      &kp CARET   &kp AMPS        &kp KP_MULTIPLY    &kp LPAR       &kp RPAR       &trans
         &kp GRAVE   kp N1          &kp N2         &kp N3          &kp N4          &kp N5         &kp N6      &kp N7          &kp N8             &kp N9         &kp N0         &none
-        &trans      &kp MINUS      &kp EQUAL      &kp UNDER       &kp PLUS        &BSLH          &kp PIPE    &kp LBKT        &kp RBKT           &kp LBRC       &kp RBRC       &trans
+        &trans      &kp MINUS      &kp EQUAL      &kp UNDER       &kp PLUS        &kp BSLH          &kp PIPE    &kp LBKT        &kp RBKT           &kp LBRC       &kp RBRC       &trans
                           	                      &trans          &trans          &trans         &kp ENTER   &trans          &trans
       >;
     };
