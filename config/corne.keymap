@@ -41,40 +41,40 @@
     layer_0 {
       display-name = "Layer 0";
       bindings = <
-        &kp TAB        &kp Q          &kp W          &kp E           &kp R           &kp T          &kp Y        &kp U           &kp I           &kp O            &kp P             &kp BSPC
-        &mt LCTRL ESC  &hml LGUI A    &hml LALT S    &hml LSHFT D    &hml LCTRL F    &kp G          &kp H        &hmr RCTRL J    &hmr RSHFT K    &hmr RALT L      &hmr RGUI SEMI    &kp SQT
-        &kp LSHFT      &kp Z          &kp X          &kp C           &kp V           &kp B          &kp N        &kp M           &kp COMMA       &kp DOT          &kp FSLH          &kp RSHFT
-                                                     &mt LGUI ESC    &lt 1 DEL       &kp BSPC       &kp SPACE    &lt 2 ENTER     &kp LALT
+        &kp TAB        &kp Q           &kp W           &kp E            &kp R            &kp T           &kp Y         &kp U                &kp I                &kp O              &kp P              &kp BSPC
+        &mt LCTRL ESC  &hml LGUI A     &hml LALT S     &hml LSHFT D     &hml LCTRL F     &kp G           &kp H         &hmr RCTRL J         &hmr RSHFT K         &hmr RALT L        &hmr RGUI SEMI     &kp SQT
+        &kp LSHFT      &kp Z           &kp X           &kp C            &kp V            &kp B           &kp N         &kp M                &kp COMMA            &kp DOT            &kp FSLH           &kp RSHFT
+                                                       &mt LGUI ESC     &lt 1 DEL        &kp BSPC        &kp SPACE     &lt 2 ENTER          &kp LALT
       >;
     };
 
     layer_1 {
       display-name = "Layer 1";
       bindings = <
-        &kp TILDE  &kp EXCL        &kp AT          &kp HASH         &kp DLLR         &kp PRCNT      &kp CARET    &kp AMPS            &kp KP_MULTIPLY     &kp LPAR          &kp RPAR          &trans
-        &trans     &hml LGUI N1    &hml LALT N2    &hml LSHFT N3    &hml LCTRL N4    &kp N5         &kp GRAVE    &hmr RCTRL MINUS    &hmr RSHFT EQUAL    &hmr RALT LBKT    &hmr RGUI RBKT    &kp BSLH
-        &trans     &kp N6          &kp N7          &kp N8           &kp N9           &kp N0         &kp TILDE    &kp UNDER           &kp PLUS            &kp LBRC          &kp RBRC          &mt RSHFT PIPE
-                                                   &trans           &trans           &trans         &kp SPACE    &kp ENTER           &trans
+        &kp TILDE      &kp EXCL        &kp AT          &kp HASH         &kp DLLR         &kp PRCNT       &kp CARET     &kp AMPS             &kp KP_MULTIPLY      &kp LPAR           &kp RPAR           &trans
+        &trans         &hml LGUI N1    &hml LALT N2    &hml LSHFT N3    &hml LCTRL N4    &kp N5          &kp GRAVE     &hmr RCTRL MINUS     &hmr RSHFT EQUAL     &hmr RALT LBKT     &hmr RGUI RBKT     &kp BSLH
+        &trans         &kp N6          &kp N7          &kp N8           &kp N9           &kp N0          &kp TILDE     &kp UNDER            &kp PLUS             &kp LBRC           &kp RBRC           &mt RSHFT PIPE
+                                                       &trans           &trans           &trans          &kp SPACE     &kp ENTER            &trans
       >;
     };
 
     layer_2 {
       display-name = "Layer 2";
       bindings = <
-        &kp F1     &kp F2              &kp F3               &kp F4                 &kp F5               &kp F6         &kp F7       &kp F8              &kp F9            &kp F10           &kp F11    &kp F12
-        &trans     &kp LGUI            &kp LALT             &kp LSHFT              &kp LCTRL            &kp PSCRN      &kp LEFT     &hmr RCTRL DOWN     &hmr RSHFT UP     &hmr RALT RIGHT   &none      &none
-        &trans     &none               &none                &none                  &none                &sl 3          &kp HOME     &kp PG_DN           &kp PG_UP         &kp END           &none      &trans
-                                                            &trans                 &kp DEL              &kp BSPC       &trans       &trans              &trans
+        &kp F1         &kp F2          &kp F3          &kp F4           &kp F5           &kp F6          &kp F7        &kp F8               &kp F9               &kp F10            &kp F11            &kp F12
+        &trans         &kp LGUI        &kp LALT        &kp LSHFT        &kp LCTRL        &kp PSCRN       &kp LEFT      &hmr RCTRL DOWN      &hmr RSHFT UP        &hmr RALT RIGHT    &none              &none
+        &trans         &none           &none           &none            &none            &sl 3           &kp HOME      &kp PG_DN            &kp PG_UP            &kp END            &none              &trans
+                                                       &trans           &kp DEL          &kp BSPC        &trans        &trans               &trans
       >;
     };
 
     layer_3 {
       display-name = "Layer 3";
       bindings = <
-        &none       &none             &none             &none              &none              &none           &none      &none              &none              &none             &none             &none
-        &none       &none    &none    &none    &none    &none           &none      &none    &none    &none    &none    &none
-        &bt BT_CLR  &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2       &bt BT_SEL 3       &bt BT_SEL 4    &none      &none              &none              &none             &none             &none
-                                                        &trans             &trans             &trans          &trans     &trans             &trans
+        &none          &none           &none           &none            &none            &none           &none         &none                &none                &none              &none              &none
+        &none          &none           &none           &none            &none            &none           &none         &none                &none                &none              &none              &none
+        &bt BT_CLR     &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4    &none         &none                &none                &none              &none              &none
+                                                       &trans           &trans           &trans          &trans        &trans               &trans
       >;
     };
 
