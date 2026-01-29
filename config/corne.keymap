@@ -41,15 +41,6 @@
       hold-trigger-key-positions = <0 1 2 3 4 5 12 13 14 15 16 17 24 25 26 27 28 29 36 37 38>;
       hold-trigger-on-release;
     };
-
-    lrep: layer_with_repeat {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      flavor = "balanced";
-      tapping-term-ms = <280>;
-      quick-tap-ms = <100>;
-      bindings = <&mo>, <&kp>;
-    };
   };
 
   keymap {
@@ -61,7 +52,7 @@
         &kp TAB        &kp Q           &kp W           &kp E            &kp R            &kp T           &kp Y         &kp U              &kp I                &kp O              &kp P              &kp BSPC
         &mt LCTRL ESC  &hml LGUI A     &hml LALT S     &hml LSHFT D     &hml LCTRL F     &kp G           &kp H         &hmr RCTRL J       &hmr RSHFT K         &hmr RALT L        &hmr RGUI SEMI     &kp SQT
         &kp LSHFT      &kp Z           &kp X           &kp C            &kp V            &kp B           &kp N         &kp M              &kp COMMA            &kp DOT            &kp FSLH           &kp RSHFT
-                                                       &kp LGUI         &lt LOWER ESC    &kp SPACE       &kp ENTER     &lrep RAISE BSPC   &kp DEL
+                                                       &kp LGUI         &lt LOWER ESC    &kp SPACE       &kp ENTER     &lt RAISE BSPC     &kp DEL
       >;
     };
 
