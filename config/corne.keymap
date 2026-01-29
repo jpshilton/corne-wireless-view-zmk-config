@@ -28,8 +28,8 @@
       bindings = <
         &kp TAB        &kp Q           &kp W           &kp E            &kp R            &kp T           &kp Y         &kp U              &kp I                &kp O              &kp P              &kp BSPC
         &mt LCTRL ESC  &hml LGUI A     &hml LALT S     &hml LSHFT D     &hml LCTRL F     &kp G           &kp H         &hmr RCTRL J       &hmr RSHFT K         &hmr RALT L        &hmr RGUI SEMI     &kp SQT
-        &kp LSHFT      &kp Z           &kp X           &kp C            &kp V            &kp B           &kp N         &kp M              &kp COMMA            &kp DOT            &kp FSLH           &kp RSHFT
-                                                       &kp LGUI         &lt L1 ESC       &kp SPACE       &kp ENTER     &lt L2 BSPC        &kp DEL
+        &kp LSHFT      &kp Z           &kp X           &kp C            &kp V            &kp B           &kp N         &kp M              &kp COMMA            &kp DOT            &kp FSLH           &kp ENTER
+                                                       &kp LGUI         &lt L1 ESC       &kp ENTER       &kp SPACE     &lt L2 BSPC        &kp DEL
       >;
     };
 
@@ -38,7 +38,7 @@
       bindings = <
         &kp TILDE      &kp EXCL        &kp AT          &kp HASH         &kp DLLR         &kp PRCNT       &kp CARET     &kp AMPS           &kp KP_MULTIPLY      &kp LPAR           &kp RPAR           ___
         ___            &hml LGUI N1    &hml LALT N2    &hml LSHFT N3    &hml LCTRL N4    &kp N5          &kp GRAVE     &hmr RCTRL MINUS   &hmr RSHFT EQUAL     &hmr RALT LBKT     &hmr RGUI RBKT     &kp BSLH
-        ___            &kp N6          &kp N7          &kp N8           &kp N9           &kp N0          &kp TILDE     &kp UNDER          &kp PLUS             &kp LBRC           &kp RBRC           &mt RSHFT PIPE
+        ___            &kp N6          &kp N7          &kp N8           &kp N9           &kp N0          &kp TILDE     &kp UNDER          &kp PLUS             &kp LBRC           &kp RBRC           &kp PIPE
                                                        ___              ___              ___             ___           &kp BSPC           ___
       >;
     };
