@@ -65,7 +65,7 @@
         &kp TILDE      &kp EXCL       &kp AT         &kp HASH         &kp DLLR       &kp PRCNT      &kp CARET        &kp AMPS         &kp KP_MULTIPLY    &kp LPAR       &kp RPAR         ___
         ___            &hml LGUI N1   &hml LALT N2   &hml LSHFT N3    &hml LCTRL N4  &kp N5         &kp GRAVE        &hmr RCTRL MINUS &hmr RSHFT EQUAL   &hmr RALT LBKT &hmr RGUI RBKT   &kp BSLH
         ___            &kp N6         &kp N7         &kp N8           &kp N9         &kp N0         &kp TILDE        &kp UNDER        &kp PLUS           &kp LBRC       &kp RBRC         &kp PIPE
-                                                     ___              ___            ___            &kp LS(LC(TAB))  &kp BSPC         &kp LC(TAB)
+                                                     ___              ___            ___            ___              &kp BSPC         ___
       >;
     };
 
@@ -75,7 +75,7 @@
         &kp F1         &kp F2         &kp F3         &kp F4           &kp F5         &kp F6         &kp F7           &kp F8           &kp F9             &kp F10        &kp F11          &kp F12
         ___            &kp LGUI       &kp LALT       &kp LSHFT        &kp LCTRL      &kp PSCRN      &kp LEFT         &kp DOWN         &kp UP             &kp RIGHT      &kp LC(LEFT)     &kp LC(RIGHT)
         &kp U_REDO     &kp U_UNDO     &kp U_CUT      &kp U_COPY       &kp U_PASTE    &kp K_CMENU    &kp HOME         &kp PG_DN        &kp PG_UP          &kp END        &kp LC(BSPC)     &none
-                                                     &kp LS(LALT)     &kp LALT       &kp TAB        ___              ___              ___
+                                                     ___              ___            ___            ___              ___              ___
       >;
     };
 
