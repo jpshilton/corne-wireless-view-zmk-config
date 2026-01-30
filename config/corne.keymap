@@ -16,9 +16,16 @@
 
 // keys
 #define ___ &trans
+#define U_UNDO LC(Z)
+#define U_CUT LS(DEL)
+#define U_COPY LC(INS)
+#define U_PASTE LS(INS)
+#define MEH LC(LS(LALT))
+#define HYPER LC(LS(LA(LGUI)))
 
 #include "includes/keys.h"
 #include "includes/mods.dtsi"
+
 
 / {
   keymap {
@@ -49,7 +56,7 @@
       bindings = <
         &kp F1         &kp F2          &kp F3          &kp F4           &kp F5           &kp F6          &kp F7        &kp F8             &kp F9               &kp F10            &kp F11            &kp F12
         ___            &kp LGUI        &kp LALT        &kp LSHFT        &kp LCTRL        &kp PSCRN       &kp LEFT      &kp DOWN           &kp UP               &kp RIGHT          &none              &none
-        ___            &kp K_UNDO      &kp K_CUT       &kp K_COPY       &kp K_PASTE      &sl L3          &kp HOME      &kp PG_DN          &kp PG_UP            &kp END            &none              &none
+        ___            &kp U_UNDO      &kp U_CUT       &kp U_COPY       &kp U_PASTE      &sl L3          &kp HOME      &kp PG_DN          &kp PG_UP            &kp END            &none              &none
                                                        ___              ___              ___             ___           ___                ___
       >;
     };
