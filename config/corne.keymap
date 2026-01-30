@@ -75,7 +75,7 @@
         &kp F1         &kp F2         &kp F3         &kp F4           &kp F5         &kp F6         &kp F7           &kp F8           &kp F9             &kp F10        &kp F11          &kp F12
         ___            &kp LGUI       &kp LALT       &kp LSHFT        &kp LCTRL      &kp PSCRN      &kp LEFT         &kp DOWN         &kp UP             &kp RIGHT      &kp LC(LEFT)     &kp LC(RIGHT)
         &kp U_REDO     &kp U_UNDO     &kp U_CUT      &kp U_COPY       &kp U_PASTE    &kp K_CMENU    &kp HOME         &kp PG_DN        &kp PG_UP          &kp END        &kp LC(BSPC)     &none
-                                                     &kp LS(LA(TAB))  ___            &kp LA(TAB)    ___              ___              ___
+                                                     &kp LS(LALT)     &kp LALT       &kp TAB        ___              ___              ___
       >;
     };
 
